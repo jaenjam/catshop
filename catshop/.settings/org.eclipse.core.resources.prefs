@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java/repository/CartDao.java=UTF-8
+encoding//src/main/java/repository/CustomerDao.java=UTF-8
+encoding//src/main/java/repository/GoodsDao.java=UTF-8
+encoding//src/main/java/repository/OrdersDao.java=UTF-8
+encoding//src/main/java/service/CartService.java=UTF-8
+encoding//src/main/java/service/GoodsService.java=UTF-8
+encoding//src/main/java/service/OrdersService.java=UTF-8
