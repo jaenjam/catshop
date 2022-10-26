@@ -101,52 +101,7 @@
 				</table>
 		</div>
 			<hr/>
-			
-		<div>
-			<!-- comment -->
-			<form action="">
-				<table class="table table-bordered">
-					<tr>
-						<th>ID</th>
-						<th>CONTENT</th>
-						<th>PASSWORD</th>
-						<th>CREATEDATE</th>
-						<th>UPDATEDATE</th>
-					</tr>
-				<%
-					for(Comment c : list){
-				%>
-					<tr>
-						<td><%=c.getId()%></td>
-						<td><%=c.getCommentContent()%></td>
-						<td><input type="password" name="commentPw"></td>
-						<td><%=c.getCreateDate()%></td>
-						<td><%=c.getUpdateDate()%></td>
-						<td><a href="<%=request.getContextPath()%>/comment/deleteCommentAction.jsp?commentNo=<%=c.getCommentNo()%>">삭제</a></td>
-					</tr>
-				<%
-					}
-				%>
-				</table>
-			</form>
-		</div>
 		<hr/>
-			
-			
-		<div>
-			<form method="post" action="<%=request.getContextPath()%>/comment/insertCommentAction.jsp?noticeNo=<%=notice.getNoticeNo()%>&id=<%=notice.getNoticeId()%>">
-				<table border="1">
-					<tr>
-						<th>댓글</th><td><textarea class="ridge" style="resize: none;" rows="2" cols="100" name="commentContent"></textarea></td>
-					</tr>
-					<tr>
-						<th>비밀번호설정</th><td><input type="password" name="commentPw"></td>
-					</tr>
-				</table>
-				<button type="submit">댓글등록</button>
-				<button type="reset">댓글초기화</button>			
-			</form>
-		</div>
 	</div>
 </body>
 </html>

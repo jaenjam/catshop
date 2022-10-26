@@ -87,6 +87,7 @@
                 <li class="active"><a href="<%=request.getContextPath()%>/index.jsp">Home</a></li>
                 <li><a href="<%=request.getContextPath()%>/customer/customerGoodsList.jsp?goodsMenu=All">Shop</a></li>
                 <li><a href="<%=request.getContextPath()%>/contact.jsp">Contact</a></li>
+                <li><a href="<%=request.getContextPath()%>/customer/customerNoticeList.jsp">Notice</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -171,6 +172,7 @@
                             <li class="active"><a href="<%=request.getContextPath()%>/index.jsp">Home</a></li>
                             <li><a href="<%=request.getContextPath()%>/customer/customerGoodsList.jsp?goodsMenu=All">Shop</a></li>
                             <li><a href="<%=request.getContextPath()%>/contact.jsp">Contact</a></li>
+                            <li><a href="<%=request.getContextPath()%>/customer/customerNoticeList.jsp">Notice</a></li>
                         </ul>
                     </nav>
                 </div>
